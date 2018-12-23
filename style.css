@@ -5,10 +5,10 @@ html{
     padding: 0;
 }
 body{
-    background-color: #C6CAED;
+    background-image:  linear-gradient(to bottom, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
 }
 header{
-    background-color: #A28497;
+   background-color: #5d5d5d;
     height: 15vh;
     display: flex;
     margin-bottom: 20px;
@@ -18,13 +18,14 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-margin-bottom: 0;
+margin-bottom: 0px;
 }
 .items{
         height: 120px;
    width: 50%;
-    background-color: #ADA8BE;
+    background-image: linear-gradient(to bottom, rgba(93,173,226,0.74) 0%,rgba(93,173,226,0.74) 9%,rgba(36,113,163,0.73) 100%);
     border-radius: 30px;
+    box-shadow: 5px 5px #C8431C;
 }
 .col-6{
  
@@ -36,7 +37,7 @@ img{
 }
 footer{
     height: 100px;
-background-color: #A28497;
+  background-color: #5d5d5d;
     font-size: 18px;
 }
 .cart{
@@ -50,8 +51,9 @@ background-color: #A28497;
 h1{
     font-size: 35px;    
     font-family: fantasy;
-    color: darkgoldenrod;
-    text-shadow: 5px 2px black;
+    color: white;
+    text-shadow: 5px 5px grey;
+ 
 }
 .prices{
     background-color: aliceblue;
